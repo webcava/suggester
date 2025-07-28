@@ -1,0 +1,117 @@
+/**
+ * Suggester Frontend Styles
+ *
+ * @package Suggester
+ * @since 1.0.1
+ */
+
+/* Global styles for all Suggester instances */
+.suggester-error {
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* RTL Support for Frontend */
+body.rtl .suggester-container,
+html[dir="rtl"] .suggester-container {
+    direction: rtl;
+    text-align: right;
+}
+
+body.rtl .suggester-error,
+html[dir="rtl"] .suggester-error {
+    text-align: right;
+}
+
+/* RTL Input and Form Elements */
+body.rtl .suggester-container input[type="text"],
+body.rtl .suggester-container input[type="search"],
+body.rtl .suggester-container textarea,
+html[dir="rtl"] .suggester-container input[type="text"],
+html[dir="rtl"] .suggester-container input[type="search"],
+html[dir="rtl"] .suggester-container textarea {
+    text-align: right;
+    direction: rtl;
+}
+
+/* RTL Button Alignment */
+body.rtl .suggester-container .suggester-button,
+body.rtl .suggester-container button,
+html[dir="rtl"] .suggester-container .suggester-button,
+html[dir="rtl"] .suggester-container button {
+    text-align: center;
+}
+
+/* RTL Suggestions Display */
+body.rtl .suggester-suggestions,
+html[dir="rtl"] .suggester-suggestions {
+    text-align: right;
+}
+
+body.rtl .suggester-suggestion-item,
+html[dir="rtl"] .suggester-suggestion-item {
+    text-align: right;
+}
+
+/* RTL Favorites Section */
+body.rtl .suggester-favorites,
+html[dir="rtl"] .suggester-favorites {
+    text-align: right;
+}
+
+body.rtl .suggester-favorites-title,
+html[dir="rtl"] .suggester-favorites-title {
+    text-align: right;
+}
+
+body.rtl .suggester-favorite-item,
+html[dir="rtl"] .suggester-favorite-item {
+    text-align: right;
+}
+
+/* RTL Copy and Action Buttons */
+body.rtl .suggester-copy-btn,
+body.rtl .suggester-favorite-btn,
+html[dir="rtl"] .suggester-copy-btn,
+html[dir="rtl"] .suggester-favorite-btn {
+    float: left;
+}
+
+/* RTL Loading and Status Messages */
+body.rtl .suggester-loading-message,
+body.rtl .suggester-status-message,
+html[dir="rtl"] .suggester-loading-message,
+html[dir="rtl"] .suggester-status-message {
+    text-align: right;
+}
+
+/* RTL Grid and Flex Layouts */
+body.rtl .suggester-grid,
+html[dir="rtl"] .suggester-grid {
+    direction: rtl;
+}
+
+body.rtl .suggester-flex,
+html[dir="rtl"] .suggester-flex {
+    direction: rtl;
+}
+
+/* RTL Icon Positioning */
+body.rtl .suggester-icon-left,
+html[dir="rtl"] .suggester-icon-left {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+body.rtl .suggester-icon-right,
+html[dir="rtl"] .suggester-icon-right {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+/* This file contains global styles for all templates */
+/* Template-specific styles are in the template's style.css file */ 

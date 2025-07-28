@@ -1,0 +1,3 @@
+This is a placeholder for the Vived template thumbnail image.
+Colors: #7733ff (purple), #ff3377 (pink), #33aaff (blue), #ffcc00 (yellow)
+Modern, vibrant design with gradients and subtle animations. 

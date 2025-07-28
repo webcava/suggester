@@ -1,0 +1,343 @@
+/**
+ * Suggester Admin Styles
+ *
+ * @package Suggester
+ * @since 1.0.1
+ */
+
+/* Admin Page Styling */
+.suggester-admin-page {
+    max-width: 1200px;
+}
+
+/* Tab Navigation */
+.suggester-nav-tab-wrapper {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+.suggester-nav-tab-wrapper .nav-tab {
+    position: relative;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0;
+    font-weight: 600;
+    color: #646970;
+    text-decoration: none;
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-bottom: none;
+    transition: all 0.2s ease;
+}
+
+.suggester-nav-tab-wrapper .nav-tab:hover {
+    background: #fff;
+    color: #135e96;
+}
+
+.suggester-nav-tab-wrapper .nav-tab.nav-tab-active,
+.suggester-nav-tab-wrapper .nav-tab:focus {
+    background: #fff;
+    color: #135e96;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+/* Tab Content */
+.suggester-tab-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    min-height: 400px;
+}
+
+.suggester-tab-panel {
+    display: block;
+}
+
+.suggester-tab-panel h2 {
+    margin-top: 0;
+    color: #23282d;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+/* General Styling */
+.suggester-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.suggester-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 782px) {
+    .suggester-nav-tab-wrapper .nav-tab {
+        display: block;
+        width: 100%;
+        margin: 0 0 -1px 0;
+        border-radius: 0;
+    }
+    
+    .suggester-tab-content {
+        padding: 15px;
+    }
+    
+    .suggester-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* RTL Support */
+body.rtl .suggester-nav-tab-wrapper .nav-tab {
+    margin: 0 0 0 4px;
+}
+
+body.rtl .suggester-nav-tab-wrapper .nav-tab:first-child {
+    margin-left: 0;
+}
+
+/* Enhanced RTL Support for Admin Interface */
+body.rtl .suggester-admin-page {
+    direction: rtl;
+}
+
+body.rtl .suggester-admin-page input[type="text"],
+body.rtl .suggester-admin-page input[type="email"],
+body.rtl .suggester-admin-page input[type="url"],
+body.rtl .suggester-admin-page input[type="password"],
+body.rtl .suggester-admin-page textarea,
+body.rtl .suggester-admin-page select {
+    text-align: right;
+    direction: rtl;
+}
+
+body.rtl .suggester-admin-page .form-table th {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+body.rtl .suggester-admin-page .form-table td {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 25px;
+}
+
+body.rtl .suggester-admin-page .wp-list-table th,
+body.rtl .suggester-admin-page .wp-list-table td {
+    text-align: right;
+}
+
+/* RTL Button Alignment */
+body.rtl .suggester-admin-page .button-group {
+    text-align: left;
+}
+
+body.rtl .suggester-admin-page .button + .button {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/* RTL Navigation and Menu Items */
+body.rtl .suggester-nav-tab-wrapper {
+    text-align: right;
+}
+
+body.rtl .suggester-admin-page .nav-tab {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+body.rtl .suggester-admin-page .nav-tab:first-child {
+    margin-left: 0;
+}
+
+/* RTL Card and Grid Layout */
+body.rtl .suggester-card {
+    text-align: right;
+}
+
+body.rtl .suggester-grid {
+    direction: rtl;
+}
+
+/* RTL Form Elements Specific */
+body.rtl .suggester-admin-page .description {
+    text-align: right;
+}
+
+body.rtl .suggester-admin-page label {
+    text-align: right;
+}
+
+body.rtl .suggester-admin-page .checkbox,
+body.rtl .suggester-admin-page .radio {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* RTL Headers and Text Content */
+body.rtl .suggester-admin-page h1,
+body.rtl .suggester-admin-page h2,
+body.rtl .suggester-admin-page h3,
+body.rtl .suggester-admin-page h4,
+body.rtl .suggester-admin-page h5,
+body.rtl .suggester-admin-page h6 {
+    text-align: right;
+}
+
+body.rtl .suggester-admin-page p {
+    text-align: right;
+}
+
+/* RTL Tables and Lists */
+body.rtl .suggester-admin-page .wp-list-table .column-name {
+    text-align: right;
+}
+
+body.rtl .suggester-admin-page .wp-list-table .row-actions {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+body.rtl .suggester-admin-page .wp-list-table .row-actions span.edit {
+    border-right: 0;
+    border-left: 1px solid #ddd;
+    padding-right: 0;
+    padding-left: 6px;
+}
+
+/* RTL Tool-specific Styling */
+body.rtl .suggester-tool-actions {
+    text-align: left;
+}
+
+body.rtl .suggester-shortcode-display {
+    direction: ltr;
+    text-align: left;
+}
+
+body.rtl .suggester-key-input {
+    direction: ltr;
+    text-align: left;
+}
+
+body.rtl .suggester-api-key-section {
+    text-align: right;
+}
+
+/* RTL Statistics and Metrics */
+body.rtl .suggester-stats-grid {
+    direction: rtl;
+}
+
+body.rtl .suggester-stats-item {
+    text-align: right;
+}
+
+/* RTL Color Picker and Special Inputs */
+body.rtl .suggester-color-picker {
+    direction: ltr;
+}
+
+body.rtl .suggester-toggle-visibility {
+    left: 0;
+    right: auto;
+}
+
+/* RTL Tab Content */
+body.rtl .suggester-tab-content {
+    text-align: right;
+}
+
+body.rtl .suggester-tab-panel {
+    direction: rtl;
+}
+
+/* RTL Template Selection */
+body.rtl .suggester-templates-grid {
+    direction: rtl;
+}
+
+body.rtl .suggester-template-card {
+    text-align: right;
+}
+
+/* RTL Header Styling */
+body.rtl .suggester-header {
+    direction: rtl;
+    text-align: right;
+}
+
+body.rtl .suggester-header .suggester-logo {
+    float: right;
+}
+
+body.rtl .suggester-header .suggester-version-badge {
+    float: left;
+}
+
+/* RTL Help Content */
+body.rtl .suggester-help-section {
+    text-align: right;
+}
+
+body.rtl .suggester-help-section ol,
+body.rtl .suggester-help-section ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/* Loading States */
+.suggester-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.suggester-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #0073aa;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* RTL Test Visualization - Development Helper */
+/* Uncomment the following section to visualize RTL layout during development */
+/*
+body.rtl .suggester-admin-page {
+    border: 2px solid #ff6b6b;
+    background: linear-gradient(to left, #ffe8e8, #fff);
+}
+
+body.rtl .suggester-admin-page::before {
+    content: "RTL Mode Active";
+    display: block;
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+*/ 

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .thumbnail {
+            width: 200px;
+            height: 150px;
+            background: linear-gradient(135deg, rgba(255, 51, 119, 0.1), rgba(119, 51, 255, 0.1));
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e5e0ff;
+        }
+        .color-bar {
+            display: flex;
+            height: 10px;
+            width: 100%;
+        }
+        .color-1 {
+            flex: 1;
+            background-color: #7733ff;
+        }
+        .color-2 {
+            flex: 1;
+            background-color: #ff3377;
+        }
+        .color-3 {
+            flex: 1;
+            background-color: #33aaff;
+        }
+        .color-4 {
+            flex: 1;
+            background-color: #ffcc00;
+        }
+        .content {
+            flex: 1;
+            padding: 10px;
+        }
+        .input {
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #e5e0ff;
+            height: 25px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5px;
+        }
+        .button {
+            background: linear-gradient(135deg, #7733ff, #9966ff);
+            border-radius: 3px;
+            height: 18px;
+            width: 50px;
+            color: white;
+            font-size: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #e5e0ff;
+            height: 40px;
+            margin-top: 15px;
+            display: flex;
+            overflow: hidden;
+        }
+        .card-bar {
+            width: 4px;
+            background: linear-gradient(to bottom, #7733ff, #ff3377);
+        }
+        .card-content {
+            flex: 1;
+            padding: 5px;
+        }
+        .lines {
+            height: 4px;
+            background: #f9f7ff;
+            border-radius: 2px;
+            margin-bottom: 4px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="thumbnail">
+        <div class="color-bar">
+            <div class="color-1"></div>
+            <div class="color-2"></div>
+            <div class="color-3"></div>
+            <div class="color-4"></div>
+        </div>
+        <div class="content">
+            <div class="input">
+                <div class="lines" style="width: 40%; margin-bottom: 0;"></div>
+                <div class="button">Suggest</div>
+            </div>
+            <div class="card">
+                <div class="card-bar"></div>
+                <div class="card-content">
+                    <div class="lines"></div>
+                    <div class="lines" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

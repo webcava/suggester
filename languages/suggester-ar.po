@@ -1,0 +1,449 @@
+# Arabic (العربية) Translation for Suggester Plugin
+# Copyright (C) 2024 Suggester Plugin
+# This file is distributed under the same license as the Suggester package.
+# Translator: AI Assistant <ai@example.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Suggester 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-12-19 12:00+0000\n"
+"Last-Translator: AI Assistant <ai@example.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Manual\n"
+
+# Main plugin name - keeping original for recognition
+msgid "Suggester"
+msgstr "Suggester"
+
+# Main navigation
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+msgid "Tools"
+msgstr "الأدوات"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Help"
+msgstr "المساعدة"
+
+# Dashboard tabs
+msgid "Overview"
+msgstr "نظرة عامة"
+
+msgid "Statistics"
+msgstr "الإحصائيات"
+
+msgid "Suggestion History"
+msgstr "تاريخ الاقتراحات"
+
+msgid "Our Other Tools"
+msgstr "أدواتنا الأخرى"
+
+# Page titles
+msgid "Suggester Dashboard"
+msgstr "لوحة تحكم Suggester"
+
+# Tool management
+msgid "Create New Tool"
+msgstr "إنشاء أداة جديدة"
+
+msgid "Edit Tool"
+msgstr "تعديل الأداة"
+
+msgid "Maximum tool limit reached."
+msgstr "تم الوصول إلى الحد الأقصى للأدوات."
+
+msgid "Tool Name"
+msgstr "اسم الأداة"
+
+msgid "Shortcode"
+msgstr "الكود المختصر"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Actions"
+msgstr "الإجراءات"
+
+msgid "No tools found. Create your first tool to get started."
+msgstr "لم يتم العثور على أدوات. أنشئ أداتك الأولى للبدء."
+
+msgid "Shortcode:"
+msgstr "الكود المختصر:"
+
+msgid "Back to Tools"
+msgstr "العودة إلى الأدوات"
+
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+# Basic settings
+msgid "Basic Settings"
+msgstr "الإعدادات الأساسية"
+
+msgid "Enter a name to identify this suggestion tool in the admin panel."
+msgstr "أدخل اسماً لتحديد أداة الاقتراحات هذه في لوحة الإدارة."
+
+msgid "Custom API Keys"
+msgstr "مفاتيح API مخصصة"
+
+msgid "Use custom API keys for this tool"
+msgstr "استخدم مفاتيح API مخصصة لهذه الأداة"
+
+msgid "Enable to use specific API keys for this tool instead of global settings."
+msgstr "فعّل لاستخدام مفاتيح API محددة لهذه الأداة بدلاً من الإعدادات العامة."
+
+msgid "This tool is using global API keys from the Settings page."
+msgstr "تستخدم هذه الأداة مفاتيح API العامة من صفحة الإعدادات."
+
+msgid "Manage Global Keys"
+msgstr "إدارة المفاتيح العامة"
+
+# API Keys
+msgid "Google Gemini API Key"
+msgstr "مفتاح Google Gemini API"
+
+msgid "Enter your Google Gemini API key. Get one at https://ai.google.dev/"
+msgstr "أدخل مفتاح Google Gemini API الخاص بك. احصل على واحد من https://ai.google.dev/"
+
+msgid "Leave this field empty to disable this key."
+msgstr "اترك هذا الحقل فارغاً لتعطيل هذا المفتاح."
+
+msgid "Leave this field empty to disable this key globally."
+msgstr "اترك هذا الحقل فارغاً لتعطيل هذا المفتاح عالمياً."
+
+msgid "OpenRouter API Key 1"
+msgstr "مفتاح OpenRouter API الأول"
+
+msgid "OpenRouter API Key 2"
+msgstr "مفتاح OpenRouter API الثاني"
+
+msgid "Select Model"
+msgstr "اختر النموذج"
+
+msgid "OpenAI"
+msgstr "OpenAI"
+
+msgid "Anthropic"
+msgstr "Anthropic"
+
+msgid "Meta"
+msgstr "Meta"
+
+msgid "Enter your OpenRouter API key and select a model. Get a key at https://openrouter.ai"
+msgstr "أدخل مفتاح OpenRouter API واختر نموذجاً. احصل على مفتاح من https://openrouter.ai"
+
+msgid "Enter your second OpenRouter API key and select a model. Multiple keys enable intelligent load balancing."
+msgstr "أدخل مفتاح OpenRouter API الثاني واختر نموذجاً. المفاتيح المتعددة تمكّن توزيع الأحمال الذكي."
+
+# Prompt settings
+msgid "Prompt Template"
+msgstr "قالب الطلب"
+
+msgid "Enter the prompt template for generating suggestions. Use the following variables:"
+msgstr "أدخل قالب الطلب لإنتاج الاقتراحات. استخدم المتغيرات التالية:"
+
+msgid "The keyword entered by the user"
+msgstr "الكلمة المفتاحية التي أدخلها المستخدم"
+
+msgid "Number of suggestions to generate (default: 3)"
+msgstr "عدد الاقتراحات المراد إنتاجها (افتراضي: 3)"
+
+msgid "Language for suggestions (default: English)"
+msgstr "لغة الاقتراحات (افتراضي: الإنجليزية)"
+
+msgid "Default Suggestion Count"
+msgstr "عدد الاقتراحات الافتراضي"
+
+msgid "Default number of suggestions to generate (1-10)"
+msgstr "العدد الافتراضي للاقتراحات المراد إنتاجها (1-10)"
+
+# Templates
+msgid "Templates"
+msgstr "القوالب"
+
+msgid "Selected"
+msgstr "محدد"
+
+msgid "Select"
+msgstr "اختر"
+
+# Customization
+msgid "Customization"
+msgstr "التخصيص"
+
+msgid "Favorites Menu"
+msgstr "قائمة المفضلة"
+
+msgid "Show or hide the favorites section in the frontend."
+msgstr "عرض أو إخفاء قسم المفضلة في الواجهة الأمامية."
+
+msgid "Accent Color"
+msgstr "اللون المميز"
+
+msgid "Choose the accent color for buttons and highlights."
+msgstr "اختر اللون المميز للأزرار والتمييزات."
+
+msgid "Button Text Color"
+msgstr "لون نص الزر"
+
+msgid "Choose the text color for buttons."
+msgstr "اختر لون النص للأزرار."
+
+# Settings page
+msgid "API Key Settings"
+msgstr "إعدادات مفاتيح API"
+
+msgid "Configure global API keys that will be used by default for all tools. Tools can override these settings by enabling \"Custom API Keys\" in their individual settings."
+msgstr "قم بتكوين مفاتيح API العامة التي ستُستخدم افتراضياً لجميع الأدوات. يمكن للأدوات تجاوز هذه الإعدادات عن طريق تفعيل \"مفاتيح API مخصصة\" في إعداداتها الفردية."
+
+msgid "How Key Rotation Works"
+msgstr "كيف يعمل تدوير المفاتيح"
+
+msgid "Understanding the intelligent key rotation system and its benefits."
+msgstr "فهم نظام تدوير المفاتيح الذكي وفوائده."
+
+msgid "What is Key Rotation?"
+msgstr "ما هو تدوير المفاتيح؟"
+
+msgid "When users generate suggestions, the plugin automatically switches between your API keys. This prevents overusing any single key and helps avoid rate limits."
+msgstr "عندما ينتج المستخدمون الاقتراحات، يتبديل البرنامج تلقائياً بين مفاتيح API الخاصة بك. هذا يمنع الإفراط في استخدام أي مفتاح واحد ويساعد في تجنب حدود المعدل."
+
+msgid "Works with One Key Too"
+msgstr "يعمل مع مفتاح واحد أيضاً"
+
+msgid "You can use just one API key and the plugin will work perfectly. Adding more keys simply provides better performance and reliability."
+msgstr "يمكنك استخدام مفتاح API واحد فقط وسيعمل البرنامج بشكل مثالي. إضافة مفاتيح أكثر يوفر فقط أداءً وموثوقية أفضل."
+
+msgid "Why Use Multiple Keys?"
+msgstr "لماذا نستخدم مفاتيح متعددة؟"
+
+msgid "Multiple keys reduce the load on each individual key. This is especially helpful if you expect high traffic or many suggestion requests."
+msgstr "المفاتيح المتعددة تقلل الحمل على كل مفتاح فردي. هذا مفيد بشكل خاص إذا كنت تتوقع حركة مرور عالية أو طلبات اقتراحات كثيرة."
+
+msgid "Global vs Tool-Specific Keys"
+msgstr "المفاتيح العامة مقابل مفاتيح الأدوات المحددة"
+
+msgid "Keys configured here are used by all tools by default. For high-traffic tools, you can assign dedicated keys in each tool's individual settings for better performance."
+msgstr "المفاتيح المكوّنة هنا تُستخدم من قبل جميع الأدوات افتراضياً. للأدوات ذات الحركة العالية، يمكنك تخصيص مفاتيح مخصصة في إعدادات كل أداة على حدة لأداء أفضل."
+
+msgid "Recommendation"
+msgstr "التوصية"
+
+msgid "Start with at least one key to get up and running"
+msgstr "ابدأ بمفتاح واحد على الأقل للبدء والتشغيل"
+
+msgid "Add 2-3 keys for better performance and reliability"
+msgstr "أضف 2-3 مفاتيح لأداء وموثوقية أفضل"
+
+msgid "Use tool-specific keys only for high-traffic tools"
+msgstr "استخدم المفاتيح المخصصة للأدوات فقط للأدوات ذات الحركة العالية"
+
+msgid "Monitor the tracking statistics to see how your keys are performing"
+msgstr "راقب إحصائيات التتبع لمعرفة كيف تؤدي مفاتيحك"
+
+# Help page
+msgid "API Keys"
+msgstr "مفاتيح API"
+
+msgid "The Suggester plugin relies on API keys from Google Gemini and OpenRouter to generate intelligent content suggestions. These APIs provide the AI-powered functionality that makes the plugin work."
+msgstr "يعتمد مكون Suggester على مفاتيح API من Google Gemini و OpenRouter لإنتاج اقتراحات المحتوى الذكية. هذه الـ APIs توفر الوظائف المدعومة بالذكاء الاصطناعي التي تجعل البرنامج يعمل."
+
+msgid "Google Gemini API"
+msgstr "Google Gemini API"
+
+msgid "Google Gemini is a powerful AI model that provides fast and accurate content suggestions."
+msgstr "Google Gemini هو نموذج ذكاء اصطناعي قوي يوفر اقتراحات محتوى سريعة ودقيقة."
+
+msgid "How to get your Google Gemini API Key:"
+msgstr "كيفية الحصول على مفتاح Google Gemini API:"
+
+msgid "Visit the Google AI Studio at"
+msgstr "زر Google AI Studio على"
+
+msgid "Sign in with your Google account"
+msgstr "سجل الدخول بحساب Google الخاص بك"
+
+msgid "Click on \"Get API Key\" in the top navigation"
+msgstr "انقر على \"الحصول على مفتاح API\" في التنقل العلوي"
+
+msgid "Create a new API key or use an existing one"
+msgstr "أنشئ مفتاح API جديد أو استخدم مفتاحاً موجوداً"
+
+msgid "Copy the API key and paste it into the Settings page"
+msgstr "انسخ مفتاح API والصقه في صفحة الإعدادات"
+
+msgid "The free tier includes generous usage limits for most websites"
+msgstr "الطبقة المجانية تتضمن حدود استخدام سخية لمعظم المواقع"
+
+# Other tools page
+msgid "New Tools on the Way!"
+msgstr "أدوات جديدة في الطريق!"
+
+msgid "We're currently developing an innovative set of tools that will take your experience with us to a whole new level. Stay tuned for updates soon!"
+msgstr "نحن نطور حالياً مجموعة مبتكرة من الأدوات التي ستأخذ تجربتك معنا إلى مستوى جديد تماماً. ترقب التحديثات قريباً!"
+
+msgid "Get in Touch"
+msgstr "تواصل معنا"
+
+msgid "Have an idea for a tool, a comment, or would you like to develop a custom tool that fits your needs? We'd love to hear from you—contact us at"
+msgstr "لديك فكرة لأداة، تعليق، أو تود تطوير أداة مخصصة تناسب احتياجاتك؟ نحب أن نسمع منك—تواصل معنا على"
+
+msgid "What to Expect"
+msgstr "ما تتوقعه"
+
+msgid "Advanced Analytics"
+msgstr "تحليلات متقدمة"
+
+msgid "Deeper insights into your content performance and user engagement."
+msgstr "رؤى أعمق حول أداء المحتوى ومشاركة المستخدمين."
+
+msgid "Custom Templates"
+msgstr "قوالب مخصصة"
+
+msgid "Create and save your own suggestion templates for consistent results."
+msgstr "أنشئ واحفظ قوالب الاقتراحات الخاصة بك للحصول على نتائج متسقة."
+
+msgid "Team Collaboration"
+msgstr "تعاون الفريق"
+
+msgid "Share tools and insights with your team members seamlessly."
+msgstr "شارك الأدوات والرؤى مع أعضاء فريقك بسلاسة."
+
+msgid "API Integrations"
+msgstr "تكاملات API"
+
+msgid "Connect with your favorite tools and platforms automatically."
+msgstr "اتصل مع أدواتك ومنصاتك المفضلة تلقائياً."
+
+msgid "Stay Updated"
+msgstr "ابق محدثاً"
+
+msgid "Want to be the first to know about new tools and features? Follow our updates and announcements."
+msgstr "تريد أن تكون أول من يعرف عن الأدوات والميزات الجديدة؟ تابع تحديثاتنا وإعلاناتنا."
+
+msgid "Subscribe to Updates"
+msgstr "اشترك في التحديثات"
+
+# History page
+msgid "Suggestion History — available in the premium version."
+msgstr "تاريخ الاقتراحات — متاح في النسخة المميزة."
+
+msgid "Keep track of all the keywords you've used, the tool's suggestions, and which suggestions users liked—all in one place. Upgrade to the premium version to unlock this feature."
+msgstr "تتبع جميع الكلمات المفتاحية التي استخدمتها، واقتراحات الأداة، والاقتراحات التي أعجب بها المستخدمون—كل ذلك في مكان واحد. ترقى إلى النسخة المميزة لفتح هذه الميزة."
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Transaction ID"
+msgstr "معرف المعاملة"
+
+msgid "Keyword"
+msgstr "الكلمة المفتاحية"
+
+msgid "Tool"
+msgstr "الأداة"
+
+msgid "Favorite Suggestions"
+msgstr "الاقتراحات المفضلة"
+
+msgid "Suggestion history cannot be displayed in the free version."
+msgstr "لا يمكن عرض تاريخ الاقتراحات في النسخة المجانية."
+
+msgid "Unlock favorites, keyword history, and more with the premium upgrade."
+msgstr "فتح المفضلة، تاريخ الكلمات المفتاحية، والمزيد مع الترقية المميزة."
+
+msgid "Complete suggestion history tracking"
+msgstr "تتبع كامل لتاريخ الاقتراحات"
+
+msgid "Keyword analytics and insights"
+msgstr "تحليلات ورؤى الكلمات المفتاحية"
+
+msgid "Favorite suggestions tracking"
+msgstr "تتبع الاقتراحات المفضلة"
+
+msgid "Export data to CSV"
+msgstr "تصدير البيانات إلى CSV"
+
+msgid "Upgrade to Premium"
+msgstr "ترقى إلى المميز"
+
+# Frontend templates
+msgid "Suggest"
+msgstr "اقترح"
+
+msgid "Suggestions you liked"
+msgstr "الاقتراحات التي أعجبتك"
+
+msgid "No saved suggestions yet."
+msgstr "لا توجد اقتراحات محفوظة بعد."
+
+msgid "Copy to clipboard"
+msgstr "نسخ إلى الحافظة"
+
+# Header messages
+msgid "You're using the free version."
+msgstr "أنت تستخدم النسخة المجانية."
+
+msgid "Facing issues or have a suggestion? Contact us at:"
+msgstr "تواجه مشاكل أو لديك اقتراح؟ تواصل معنا على:"
+
+# Shortcode errors
+msgid "Invalid suggestion tool ID."
+msgstr "معرف أداة الاقتراح غير صالح."
+
+msgid "Suggestion tool not found."
+msgstr "أداة الاقتراح غير موجودة."
+
+msgid "This suggestion tool is currently disabled."
+msgstr "أداة الاقتراح هذه معطلة حالياً."
+
+# Tracking and stats
+msgid "Last used"
+msgstr "آخر استخدام"
+
+msgid "Error: "
+msgstr "خطأ: "
+
+msgid "Tracking:"
+msgstr "التتبع:"
+
+msgid "Reset tracking statistics"
+msgstr "إعادة تعيين إحصائيات التتبع"
+
+# Copy feature
+msgid "Copy"
+msgstr "نسخ"
+
+# Confirmation dialogs
+msgid "Are you sure you want to delete this tool? This action cannot be undone."
+msgstr "هل أنت متأكد من حذف هذه الأداة؟ لا يمكن التراجع عن هذا الإجراء."
+
+msgid "Are you sure you want to reset the tracking statistics for this API key? This action cannot be undone."
+msgstr "هل أنت متأكد من إعادة تعيين إحصائيات التتبع لمفتاح API هذا؟ لا يمكن التراجع عن هذا الإجراء."
+
+msgid "Tool duplicated successfully"
+msgstr "تم تكرار الأداة بنجاح"
+
+# Frontend input placeholder
+msgid "Describe what you want here..."
+msgstr "اكتب ما تريده هنا..."
+
+# Additional template elements
+msgid "Save to favorites"
+msgstr "حفظ في المفضلة"
+
+msgid "Remove from favorites"
+msgstr "حذف من المفضلة" 

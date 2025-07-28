@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Suggester 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/admin/class-suggester-admin.php:32
+#: includes/admin/class-suggester-admin.php:33
+#: includes/admin/class-suggester-admin.php:42
+#: includes/admin/class-suggester-admin.php:43
+msgid "Suggester"
+msgstr ""
+
+#: includes/admin/class-suggester-admin.php:49
+#: includes/admin/class-suggester-admin.php:50
+#: includes/admin/class-suggester-dashboard.php:58
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/class-suggester-admin.php:58
+#: includes/admin/class-suggester-admin.php:59
+#: includes/admin/class-suggester-tools.php:31
+msgid "Tools"
+msgstr ""
+
+#: includes/admin/class-suggester-admin.php:67
+#: includes/admin/class-suggester-admin.php:68
+#: includes/admin/class-suggester-settings.php:31
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:34
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:35
+msgid "Statistics"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:36
+msgid "Suggestion History"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:37
+msgid "Our Other Tools"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:133
+msgid "Suggester Dashboard"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:147
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:156
+msgid "Statistics"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:165
+msgid "Suggestion History"
+msgstr ""
+
+#: includes/admin/class-suggester-dashboard.php:174
+msgid "Our Other Tools"
+msgstr "" 
